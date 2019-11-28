@@ -1,7 +1,35 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="0f47d82c-f8c8-4e05-92d0-76e8b0c4849c" name="Default Changelist" comment="" />
+    <list default="true" id="0f47d82c-f8c8-4e05-92d0-76e8b0c4849c" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__javax_servlet_javax_servlet_api_3_0_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Bootstrap.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/connnector/Test.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/connnector/TestClient.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/processor/DynamicProcessor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/processor/Processor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/processor/StaticProcessor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webRoot/TimeServlet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/processor/DynamicProcessorTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/SimpleWebServer.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/SimpleWebServer.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/connnector/Connector.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/connnector/Connector.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/connnector/ConnectorUtils.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/connnector/ConnectorUtils.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/connnector/Request.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/connnector/Request.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/connnector/Response.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/connnector/Response.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/html/404.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/404.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/html/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/connnector/Connector.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/connnector/Connector.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/connnector/ConnectorUtils.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/connnector/ConnectorUtils.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/connnector/Request.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/connnector/Request.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/connnector/Response.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/connnector/Response.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/html/404.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/html/index.html" beforeDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -12,10 +40,13 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="HTML File" />
-        <option value="JUnit4 Test Class" />
         <option value="Class" />
+        <option value="JUnit4 Test Class" />
       </list>
     </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="MavenImportPreferences">
     <option name="generalSettings">
@@ -26,8 +57,10 @@
     </option>
   </component>
   <component name="ProjectId" id="1UBk7vhlwPJF3HC1F2KtNunsFCo" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="PropertiesComponent">
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit4" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit4" value="" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/src/test/resource" />
@@ -38,6 +71,13 @@
   </component>
   <component name="RecentsManager">
     <key name="CreateTestDialog.RecentsKey">
+      <recent name="processor" />
+      <recent name="connnector" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/main/resources" />
+    </key>
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
       <recent name="connnector" />
     </key>
     <key name="CreateTestDialog.Recents.Supers">
@@ -61,24 +101,16 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.ResponseTest.givenInvalidRequest_thenReturnError">
-    <configuration name="RequestTest.getUri" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="JUnit.DynamicProcessorTest.getServletTest">
+    <configuration name="Bootstrap" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Bootstrap" />
       <module name="SimpleWebServer" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="connnector.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="connnector" />
-      <option name="MAIN_CLASS_NAME" value="connnector.RequestTest" />
-      <option name="METHOD_NAME" value="getUri" />
-      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ResponseTest.givenInvalidRequest_thenReturnError" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="ConnectorUtils" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="connnector.ConnectorUtils" />
       <module name="SimpleWebServer" />
       <extension name="coverage">
         <pattern>
@@ -86,25 +118,35 @@
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="connnector" />
-      <option name="MAIN_CLASS_NAME" value="connnector.ResponseTest" />
-      <option name="METHOD_NAME" value="givenInvalidRequest_thenReturnError" />
-      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ResponseTest.givenValidRequest_thenReturnStaticResource" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="TestClient" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="connnector.TestClient" />
+      <module name="SimpleWebServer" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TimeServlet" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="TimeServlet" />
+      <module name="SimpleWebServer" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="DynamicProcessorTest.getServletTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="SimpleWebServer" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="connnector.*" />
+          <option name="PATTERN" value="processor.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="connnector" />
-      <option name="MAIN_CLASS_NAME" value="connnector.ResponseTest" />
-      <option name="METHOD_NAME" value="givenValidRequest_thenReturnStaticResource" />
+      <option name="PACKAGE_NAME" value="processor" />
+      <option name="MAIN_CLASS_NAME" value="processor.DynamicProcessorTest" />
+      <option name="METHOD_NAME" value="getServletTest" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -112,9 +154,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.ResponseTest.givenInvalidRequest_thenReturnError" />
-        <item itemvalue="JUnit.ResponseTest.givenValidRequest_thenReturnStaticResource" />
-        <item itemvalue="JUnit.RequestTest.getUri" />
+        <item itemvalue="JUnit.DynamicProcessorTest.getServletTest" />
+        <item itemvalue="Application.ConnectorUtils" />
+        <item itemvalue="Application.TimeServlet" />
+        <item itemvalue="Application.Bootstrap" />
+        <item itemvalue="Application.TestClient" />
       </list>
     </recent_temporary>
   </component>
@@ -130,5 +174,16 @@
       <updated>1574836985805</updated>
     </task>
     <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
 </project>

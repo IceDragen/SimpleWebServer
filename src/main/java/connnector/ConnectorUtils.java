@@ -1,5 +1,7 @@
 package connnector;
 
+import java.io.File;
+
 /**
  * Description:
  */
@@ -13,6 +15,9 @@ public class ConnectorUtils {
 
     private static final String SPACE = " ";
 
+    public static final String WEB_ROOT =
+            System.getProperty("user.dir") + File.separator  + "webroot";
+
     public static String renderStatus(HttpStatus status) {
         StringBuilder sb = new StringBuilder(PROTOCOL)
                 .append(SPACE)
@@ -23,5 +28,9 @@ public class ConnectorUtils {
                 .append(CARRIAGE).append(NEWLINE);
 
         return sb.toString();
+    }
+
+    public static void main(String[] args) {
+        System.out.println(System.getProperty("user.dir"));
     }
 }
