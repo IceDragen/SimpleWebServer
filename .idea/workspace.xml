@@ -1,26 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="0f47d82c-f8c8-4e05-92d0-76e8b0c4849c" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/connnector/RequestFacade.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/connnector/ResponseFacade.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/SimpleWebServer.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/SimpleWebServer.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/connnector/Connector.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/connnector/Connector.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/connnector/Test.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/connnector/TestClient.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/client/TestClient.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/processor/DynamicProcessor.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/processor/DynamicResourceProcessor.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/processor/StaticProcessor.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/processor/StaticResourceProcessor.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/processor/DynamicProcessorTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/processor/DynamicResourceProcessorTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/connnector/Connector.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/connnector/Connector.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/connnector/Test.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/connnector/TestClient.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/processor/DynamicProcessor.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/processor/StaticProcessor.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/processor/DynamicProcessorTest.class" beforeDir="false" />
-    </list>
+    <list default="true" id="0f47d82c-f8c8-4e05-92d0-76e8b0c4849c" name="Default Changelist" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
