@@ -8,7 +8,7 @@ import java.io.IOException;
 /**
  * Description:
  */
-public class StaticProcessor extends Processor{
+public class StaticResourceProcessor extends Processor{
 
     @Override
     public void process(Request request, Response response) {

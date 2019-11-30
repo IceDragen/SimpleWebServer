@@ -9,15 +9,13 @@ import javax.servlet.Servlet;
 
 import java.net.MalformedURLException;
 
-import static org.junit.Assert.*;
-
 /**
  * Description:
  */
-public class DynamicProcessorTest {
+public class DynamicResourceProcessorTest {
 
     private Request request = TestUtils.createRequest("GET /servlet/TimeServlet HTTP/1.1");
-    private DynamicProcessor processor = new DynamicProcessor();
+    private DynamicResourceProcessor processor = new DynamicResourceProcessor();
 
     @Test
     public void getServletTest() throws ClassNotFoundException,

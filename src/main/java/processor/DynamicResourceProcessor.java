@@ -1,8 +1,6 @@
 package processor;
 
-import connnector.ConnectorUtils;
-import connnector.Request;
-import connnector.Response;
+import connnector.*;
 
 import javax.servlet.Servlet;
 import javax.servlet.ServletException;
@@ -15,14 +13,16 @@ import java.net.URLClassLoader;
 /**
  * Description: 动态资源处理器
  */
-public class DynamicProcessor extends Processor{
+public class DynamicResourceProcessor extends Processor{
 
     @Override
     public void process(Request request, Response response) {
         try {
             URLClassLoader servletLoader = getServletLoader();
             Servlet servlet = getServlet(servletLoader, request);
-            servlet.service(request, response);
+            RequestFacade requestFacade = new RequestFacade(request);
+            ResponseFacade responseFacade = new ResponseFacade(response);
+            servlet.service(requestFacade, responseFacade);
         } catch (InstantiationException | IllegalAccessException
                 | ClassNotFoundException | ServletException | IOException e) {
             e.printStackTrace();

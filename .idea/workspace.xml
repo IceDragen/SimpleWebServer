@@ -2,33 +2,24 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="0f47d82c-f8c8-4e05-92d0-76e8b0c4849c" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__javax_servlet_javax_servlet_api_3_0_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Bootstrap.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/connnector/Test.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/connnector/TestClient.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/processor/DynamicProcessor.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/processor/Processor.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/processor/StaticProcessor.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webRoot/TimeServlet.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/processor/DynamicProcessorTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/connnector/RequestFacade.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/connnector/ResponseFacade.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/SimpleWebServer.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/SimpleWebServer.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/connnector/Connector.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/connnector/Connector.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/connnector/ConnectorUtils.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/connnector/ConnectorUtils.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/connnector/Request.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/connnector/Request.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/connnector/Response.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/connnector/Response.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/html/404.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/404.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/html/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/connnector/Test.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/connnector/TestClient.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/client/TestClient.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/processor/DynamicProcessor.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/processor/DynamicResourceProcessor.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/processor/StaticProcessor.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/processor/StaticResourceProcessor.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/processor/DynamicProcessorTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/processor/DynamicResourceProcessorTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/connnector/Connector.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/connnector/Connector.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/connnector/ConnectorUtils.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/connnector/ConnectorUtils.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/connnector/Request.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/connnector/Request.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/connnector/Response.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/connnector/Response.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/html/404.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/html/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/connnector/Test.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/connnector/TestClient.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/processor/DynamicProcessor.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/processor/StaticProcessor.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/processor/DynamicProcessorTest.class" beforeDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -40,8 +31,8 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="HTML File" />
-        <option value="Class" />
         <option value="JUnit4 Test Class" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -75,6 +66,7 @@
       <recent name="connnector" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/main/java" />
       <recent name="$PROJECT_DIR$/src/main/resources" />
     </key>
     <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
@@ -101,7 +93,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.DynamicProcessorTest.getServletTest">
+  <component name="RunManager" selected="Application.TestClient">
     <configuration name="Bootstrap" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Bootstrap" />
       <module name="SimpleWebServer" />
@@ -114,7 +106,7 @@
       <module name="SimpleWebServer" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="connnector.*" />
+          <option name="PATTERN" value="client.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -123,7 +115,7 @@
       </method>
     </configuration>
     <configuration name="TestClient" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="connnector.TestClient" />
+      <option name="MAIN_CLASS_NAME" value="client.TestClient" />
       <module name="SimpleWebServer" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -136,7 +128,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="DynamicProcessorTest.getServletTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="DynamicResourceProcessorTest.getServletTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="SimpleWebServer" />
       <extension name="coverage">
         <pattern>
@@ -145,7 +137,7 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="processor" />
-      <option name="MAIN_CLASS_NAME" value="processor.DynamicProcessorTest" />
+      <option name="MAIN_CLASS_NAME" value="processor.DynamicResourceProcessorTest" />
       <option name="METHOD_NAME" value="getServletTest" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
@@ -154,11 +146,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.DynamicProcessorTest.getServletTest" />
+        <item itemvalue="Application.TestClient" />
+        <item itemvalue="Application.Bootstrap" />
+        <item itemvalue="JUnit.DynamicResourceProcessorTest.getServletTest" />
         <item itemvalue="Application.ConnectorUtils" />
         <item itemvalue="Application.TimeServlet" />
-        <item itemvalue="Application.Bootstrap" />
-        <item itemvalue="Application.TestClient" />
       </list>
     </recent_temporary>
   </component>
